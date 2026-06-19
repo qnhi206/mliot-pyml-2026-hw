@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Dữ liệu lớn / mô hình (không nên commit)
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.ckpt
+data/
+datasets/
+checkpoints/
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
